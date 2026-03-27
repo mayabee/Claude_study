@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- 귀 -->
+  <polygon points="40,70 20,20 70,55" fill="#FF9F43"/>
+  <polygon points="160,70 180,20 130,55" fill="#FF9F43"/>
+  <polygon points="45,65 30,30 65,58" fill="#FFD1B3"/>
+  <polygon points="155,65 170,30 135,58" fill="#FFD1B3"/>
+  <!-- 얼굴 -->
+  <circle cx="100" cy="110" r="70" fill="#FF9F43"/>
+  <!-- 눈 -->
+  <ellipse cx="75" cy="95" rx="12" ry="14" fill="#333"/>
+  <ellipse cx="125" cy="95" rx="12" ry="14" fill="#333"/>
+  <circle cx="79" cy="91" r="4" fill="white"/>
+  <circle cx="129" cy="91" r="4" fill="white"/>
+  <!-- 코 -->
+  <polygon points="100,115 93,108 107,108" fill="#FF6B9D"/>
+  <!-- 입 -->
+  <path d="M93,118 Q100,125 107,118" stroke="#333" stroke-width="2" fill="none"/>
+  <!-- 수염 -->
+  <line x1="30" y1="112" x2="85" y2="116" stroke="#555" stroke-width="1.5"/>
+  <line x1="30" y1="120" x2="85" y2="120" stroke="#555" stroke-width="1.5"/>
+  <line x1="115" y1="116" x2="170" y2="112" stroke="#555" stroke-width="1.5"/>
+  <line x1="115" y1="120" x2="170" y2="120" stroke="#555" stroke-width="1.5"/>
+  <!-- 볼터치 -->
+  <circle cx="65" cy="118" r="10" fill="#FFB3BA" opacity="0.5"/>
+  <circle cx="135" cy="118" r="10" fill="#FFB3BA" opacity="0.5"/>
+  <!-- 몸통 -->
+  <ellipse cx="100" cy="175" rx="40" ry="25" fill="#FF9F43"/>
+  <!-- 앞발 -->
+  <ellipse cx="72" cy="190" rx="15" ry="10" fill="#FF9F43"/>
+  <ellipse cx="128" cy="190" rx="15" ry="10" fill="#FF9F43"/>
+</svg>
