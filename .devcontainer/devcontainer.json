@@ -1,0 +1,15 @@
+{
+  "name": "Mlearning Dev",
+  "build": {
+    "dockerfile": "Dockerfile" //컨테이너생성 시 필요한 설계도
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python" //자동설치목록 - 파이썬만 설치
+      ]
+    }
+  },
+  "autoForwardPorts": true,
+  "forwardPorts": [41699, 33215, 10000, 8888]
+}
