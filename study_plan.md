@@ -24,6 +24,8 @@
 - `read_excel`, `read_csv` (header, index_col, dtype 옵션)
 - `set_index()`, `index.name`
 - 03장 데이터프레임과 시리즈 — 3.4.5(함수와 메서드·속성)까지 완료
+- head/tail/describe
+- 연속함수, 연속메서드
 
 ---
 
@@ -93,3 +95,4 @@
 | 2026.05.17 | 집 | DataFrame 생성, 불리언 인덱싱 | 딕셔너리 구조 헷갈렸음 — key가 열이름 |
 | 2026.05.18 | 집 | Series vs DataFrame 차원 개념, iloc/loc 차이, 클래스 구조, 2차원 딕셔너리 생성 | 값의 배열 방향으로 차원 판단하는 기준 명확히 이해 |
 | 2026.05.19 | 회사 | Series, read_excel/csv, set_index, 03장 3.4.5까지 | 다음은 3.4.6부터 3.5.7까지 |
+| 2026.05.19 | 집 | head/tail/describe, 연속함수, 연속메서드 | pandas.ipynb에 markdown 셀 추가 |
