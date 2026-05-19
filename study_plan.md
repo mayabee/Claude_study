@@ -15,6 +15,11 @@
 - 기본 속성: `.index`, `.columns`, `.values`
 - 전치: `.T`
 - 불리언 인덱싱: `df[df > 90]`
+- DataFrame vs Series 차이 (차원 개념, columns 유무)
+- iloc의 i = integer 의미
+- pd.DataFrame()은 함수가 아닌 클래스 (`__init__`, `_init_dict` 등)
+- 2차원 딕셔너리로 DataFrame 생성 (바깥 키→columns, 안쪽 키→index)
+- 스칼라 값 입력 시 index 필요 이유
 
 ---
 
@@ -53,3 +58,4 @@
 | 날짜 | 장소 | 공부한 내용 | 메모 |
 |------|------|------------|------|
 | 2026.05.17 | 집 | DataFrame 생성, 불리언 인덱싱 | 딕셔너리 구조 헷갈렸음 — key가 열이름 |
+| 2026.05.18 | 집 | Series vs DataFrame 차원 개념, iloc/loc 차이, 클래스 구조, 2차원 딕셔너리 생성 | 값의 배열 방향으로 차원 판단하는 기준 명확히 이해 |
