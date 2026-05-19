@@ -15,6 +15,10 @@
 - 기본 속성: `.index`, `.columns`, `.values`
 - 전치: `.T`
 - 불리언 인덱싱: `df[df > 90]`
+- Series 만들기, Series vs DataFrame 차이
+- `read_excel`, `read_csv` (header, index_col, dtype 옵션)
+- `set_index()`, `index.name`
+- 03장 데이터프레임과 시리즈 — 3.4.5(함수와 메서드·속성)까지 완료
 
 ---
 
@@ -53,3 +57,4 @@
 | 날짜 | 장소 | 공부한 내용 | 메모 |
 |------|------|------------|------|
 | 2026.05.17 | 집 | DataFrame 생성, 불리언 인덱싱 | 딕셔너리 구조 헷갈렸음 — key가 열이름 |
+| 2026.05.19 | 회사 | Series, read_excel/csv, set_index, 03장 3.4.5까지 | 다음은 3.4.6부터 3.5.7까지 |
