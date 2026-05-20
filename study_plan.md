@@ -26,6 +26,11 @@
 - 03장 데이터프레임과 시리즈 — 3.4.5(함수와 메서드·속성)까지 완료
 - head/tail/describe
 - 연속함수, 연속메서드
+- unique(), nunique(), value_counts() (NaN 포함 여부 차이)
+- describe() 해석 (right-skewed, 평균 vs 중앙값)
+- 불리언 인덱싱 심화 (인덱스 일치 조건, map() 활용)
+- df.plot() 시각화
+- Ch.3 전체 완료 ✅
 
 ---
 
@@ -96,3 +101,4 @@
 | 2026.05.18 | 집 | Series vs DataFrame 차원 개념, iloc/loc 차이, 클래스 구조, 2차원 딕셔너리 생성 | 값의 배열 방향으로 차원 판단하는 기준 명확히 이해 |
 | 2026.05.19 | 회사 | Series, read_excel/csv, set_index, 03장 3.4.5까지 | 다음은 3.4.6부터 3.5.7까지 |
 | 2026.05.19 | 집 | head/tail/describe, 연속함수, 연속메서드 | pandas.ipynb에 markdown 셀 추가 |
+| 2026.05.20 | 집 | unique/nunique/value_counts, describe 해석, 불리언 인덱싱 심화, plot | Ch.3 전체 완료, 내일 Ch.4 loc/iloc 시작 |
